@@ -9,7 +9,7 @@ terraform {
     bucket = "1996-july-28-bucket"
     key = JP/Infraterraform
     region = "ap-south-1"
-    
+    encrypt = true
   }
 }
 provider "aws" {
